@@ -6,31 +6,17 @@ This library encapsulates the connection and the commands that can be send to th
 
 add the jitpack repo : 
 
-		<repositories>
-			<repository>
-				<id>jitpack.io</id>
-				<url>https://jitpack.io</url>
-			</repository>
-		</repositories>
-		
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+	
 Then add the dependency : 
 
 	<dependency>
-            <groupId>com.github.Lastrik</groupId>
-            <artifactId>drone-controller</artifactId>
-            <version>0.3.0</version>
-        </dependency>
-
-## Release
-
-        mvn versions:set -DnewVersion=${newVersion}
-
-then
-
-        mvn clean deploy -P release
-
-then
-
-        git tag ${newVersion}
-
-and finally push it.
+		<groupId>com.github.Lastrik</groupId>
+        	<artifactId>drone-controller</artifactId>
+        	<version>0.3.0</version>
+	</dependency>
