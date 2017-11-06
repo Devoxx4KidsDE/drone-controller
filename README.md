@@ -20,7 +20,7 @@ add the jitpack repo :
 		
 Then add the dependency : 
 
-	<dependency>
+		<dependency>
             <groupId>com.github.Lastrik</groupId>
             <artifactId>drone-controller</artifactId>
             <version>0.3.0</version>
