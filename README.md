@@ -9,7 +9,7 @@ This library encapsulates the connection and the commands that can be send to th
 
 ## Maven
 
-		add the jitpack repo : 
+	add the jitpack repo : 
 		´´´´
 			<repositories>
 			<repository>
@@ -18,14 +18,13 @@ This library encapsulates the connection and the commands that can be send to th
 			</repository>
 		</repositories>
 		´´´´
-        Then add the dependency : 
+	Then add the dependency : 
 		<dependency>
             <groupId>com.github.Lastrik</groupId>
             <artifactId>drone-controller</artifactId>
             <version>0.3.0</version>
         </dependency>
 
-		
 		
 ## Release
 
