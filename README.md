@@ -9,6 +9,7 @@ This library encapsulates the connection and the commands that can be send to th
 
 ## Maven
 
+<<<<<<< HEAD
 add the jitpack repo : 
 
 		<repositories>
@@ -27,6 +28,14 @@ Then add the dependency :
         </dependency>
 
 		
+=======
+        <dependency>
+            <groupId>de.devoxx4kids</groupId>
+            <artifactId>dronecontroller</artifactId>
+            <version>${version}</version>
+        </dependency>
+        
+>>>>>>> parent of 6ce1475... updated README.md
 ## Release
 
         mvn versions:set -DnewVersion=${newVersion}
